@@ -6,6 +6,7 @@ This package adds a number of tasks to our Rakefile:
 3. rake release: Send your .gem file to the remote Rubygems library for the world to download.
 =end
 require "rake/testtask"
+# This is part of the Ruby standard library - not a gem (and hence does not need to go in our Gemfile)
 require "find"
 
 desc 'Say hello'
